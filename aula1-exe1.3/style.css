@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    text-align: center;
+    max-width: 400px;
+}
+#paragrafo-origem {
+    font-style: italic;
+    color: #555;
+    background-color: #eef7ff;
+    padding: 10px;
+    border-left: 4px solid #007bff;
+}
+#paragrafo-destino {
+    font-weight: bold;
+    color: #28a745;
+    margin: 20px 0;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
